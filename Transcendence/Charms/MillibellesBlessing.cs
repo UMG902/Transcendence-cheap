@@ -9,7 +9,7 @@ namespace Transcendence
         public override string Sprite => "MillibellesBlessing.png";
         public override string Name => "Millibelle's Blessing";
         public override string Description => "A certificate of an investment plan offered by a renowned banker of Hallownest.\n\nMakes the bearer's Geo accumulate interest over time, allowing them to enrich themselves without lifting a finger.";
-        public override int DefaultCost => 2;
+        public override int DefaultCost => 1;
         public override string Scene => "Fungus3_35";
         public override float X => 7.8f;
         public override float Y => 5.4f;
