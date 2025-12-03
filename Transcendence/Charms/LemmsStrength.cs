@@ -11,7 +11,7 @@ namespace Transcendence
         public override string Sprite => "LemmsStrength.png";
         public override string Name => "Lemm's Strength";
         public override string Description => "A charm wielded by those who collect relics of Hallownest's past.\n\nThe bearer's nail will be strengthened by each relic they hold.";
-        public override int DefaultCost => 3;
+        public override int DefaultCost => 2;
         public override string Scene => "Ruins1_27";
         public override float X => 53.6f;
         public override float Y => 23.4f;
