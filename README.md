@@ -1,3 +1,5 @@
+THIS IS A FORK OF THE MOD I CREATED BECAUSE I WANTED TO REDUCE THE CHARM'S COSTS I DO NOT HAVE ANY CONNECTION WITH THE ORIGINAL MOD OR IT'S CREATOR
+
 A mod for Hollow Knight that adds 15 new charms.
 
 Can work with or without the randomizer: if it is in use and charms are randomized,
