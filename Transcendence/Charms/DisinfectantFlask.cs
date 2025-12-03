@@ -15,7 +15,7 @@ namespace Transcendence
         public override string Sprite => "DisinfectantFlask.png";
         public override string Name => "Disinfectant Flask";
         public override string Description => "A vessel containing pure, concentrated lifeblood.\n\nCleans infected areas around the bearer.";
-        public override int DefaultCost => 1;
+        public override int DefaultCost => 0;
         public override string Scene => "Deepnest_East_15";
         public override float X => 30.8f;
         public override float Y => 4.4f;
