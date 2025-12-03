@@ -15,7 +15,7 @@ namespace Transcendence
         public override string Sprite => "SnailSoul.png";
         public override string Name => "Snail Soul";
         public override string Description => "A soothing charm worn by shamans on lazy days.\n\nSlows down the bearer's fireballs.";
-        public override int DefaultCost => 2;
+        public override int DefaultCost => 1;
         public override string Scene => "Fungus3_44";
         public override float X => 10.3f;
         public override float Y => 12.4f;
