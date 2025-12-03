@@ -16,7 +16,7 @@ namespace Transcendence
         public override string Sprite => "VespasVengeance.png";
         public override string Name => "Vespa's Vengeance";
         public override string Description => "A beacon worn by the guardians of the Hive to call for the aid of their kin.\n\nTransforms the Howling Wraiths spell into a swarm of volatile worker bees.";
-        public override int DefaultCost => 3;
+        public override int DefaultCost => 2;
         public override string Scene => "Hive_01";
         public override float X => 85.0f;
         public override float Y => 10.4f;
