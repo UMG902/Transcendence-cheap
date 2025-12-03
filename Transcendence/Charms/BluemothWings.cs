@@ -35,7 +35,7 @@ namespace Transcendence
             On.HeroController.AffectedByGravity += GiveControlFromUpwardsTransitions;
         }
 
-        private const int ExtraJumpCost = 10;
+        private const int ExtraJumpCost = 5;
 
         private bool AllowDoubleJump(On.HeroController.orig_CanDoubleJump orig, HeroController self)
         {
