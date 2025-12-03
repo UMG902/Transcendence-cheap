@@ -13,7 +13,7 @@ namespace Transcendence
         public override string Sprite => "ShamanAmp.png";
         public override string Name => "Shaman Amp";
         public override string Description => "Forgotten shaman artifact, used by wealthy shamans to strike fear in foes.\n\nIncreases the size of spells in proportion to the amount of Geo held.";
-        public override int DefaultCost => 4;
+        public override int DefaultCost => 2;
         public override string Scene => "Room_GG_Shortcut";
         public override float X => 103.3f;
         public override float Y => 69.4f;
