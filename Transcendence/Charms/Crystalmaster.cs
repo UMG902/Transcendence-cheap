@@ -11,7 +11,7 @@ namespace Transcendence
         public override string Sprite => "Crystalmaster.png";
         public override string Name => "Crystalmaster";
         public override string Description => "Bears the likeness of a crystallised bug known only as 'The Crystalmaster'.\n\nGreatly increases the running speed of the bearer, in exchange for Geo. The increase is stronger the richer they are.";
-        public override int DefaultCost => 2;
+        public override int DefaultCost => 1;
         public override string Scene => "Mines_25";
         public override float X => 28.1f;
         public override float Y => 95.4f;
@@ -46,7 +46,7 @@ namespace Transcendence
                 if (ChargeTimer == ChargeInterval)
                 {
                     ChargeTimer = 0;
-                    self.TakeGeo(geo / 100);
+                    self.TakeGeo(geo / 200);
                 }
             }
             orig(self, dir);
