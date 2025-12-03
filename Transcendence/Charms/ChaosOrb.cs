@@ -18,7 +18,7 @@ namespace Transcendence
         public override string Sprite => "ChaosOrb.png";
         public override string Name => "Chaos Orb";
         public override string Description => $"Formed in the depths of the Abyss from fragments of discarded charms.\n\nThe bearer will gain the effects of three random charms, changing over time.\n\nCurrently granting the effects of {GivenCharmDescription()}.";
-        public override int DefaultCost => 2;
+        public override int DefaultCost => 1;
         public override string Scene => "Deepnest_East_04";
         public override float X => 27.5f;
         public override float Y => 80.4f;
