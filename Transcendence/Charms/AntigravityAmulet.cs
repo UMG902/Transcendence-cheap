@@ -13,7 +13,7 @@ namespace Transcendence
         public override string Sprite => "AntigravityAmulet.png";
         public override string Name => "Antigravity Amulet";
         public override string Description => "Used by shamans to float around.\n\nDecreases the effect of gravity on the bearer, allowing them to leap to greater heights and fall more softly.";
-        public override int DefaultCost => 2;
+        public override int DefaultCost => 1;
         public override string Scene => "Mines_28";
         public override float X => 5.1f;
         public override float Y => 27.4f;
